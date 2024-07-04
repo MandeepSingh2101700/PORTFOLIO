@@ -1,0 +1,20 @@
+body{    
+    height: max-content;
+    background-color: #A79080;
+    margin-top: 0px;
+}
+
+
+.Block{
+    margin-top: 150px;
+    padding-top: 60px;
+    border-bottom: solid;
+    text-align: center;
+}
+.block-tittle{
+    font-family: cursive;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}

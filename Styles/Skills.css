@@ -1,0 +1,118 @@
+.Skills-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 20%;
+    padding: 10px 0px;
+    width: 60%;
+    min-width: max-content;
+    height: max-content;
+}
+.block1,
+.block2{
+    margin: 0px 10px;
+    width: 100%;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DfC6B5;    
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding-bottom: 10px;
+}
+
+.web-skills{
+    height: max-content;
+    width: 80%;
+    padding: 0px 5%;
+    min-width: max-content;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Languages-skills{
+    height: max-content;
+    width: 90%;
+    min-width: max-content;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Other-skills{
+    height: max-content;
+    width: 80%;
+    
+    min-width: max-content;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill-card{
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: max-content;
+    width: 40%;
+    min-width: max-content;
+
+    background-color: #DfC6B5;
+    box-shadow: 2px 2px 10px rgb(91, 86, 86);
+
+    display: flex;
+    justify-content: center;
+}
+
+.skill-card-L{
+    background-color: #DfC6B5;
+    box-shadow: 2px 2px 10px rgb(91, 86, 86);
+
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: max-content;
+    width: 30%;
+    min-width: max-content;
+
+    display: flex;
+    justify-content: center;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.U-block2,
+.L-block2{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: #DfC6B5;    
+    border: 1px solid black;
+    border-radius: 10px;
+    height: max-content;
+    width: 100%;
+}
+.U-block2{
+    margin-bottom: 5px;
+}
+.L-block2{
+    margin-top: 5px;
+}
+.skill-img{
+    width: 60%;
+    height: 100%;
+}
+
+.skill-heading{
+    margin: 10px ;
+}
